@@ -1,0 +1,25 @@
+package SelfProgramming;
+
+public class Mathematic {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+System.out.println("Square root of 16 = "+Math.sqrt(16));
+System.out.println("Square root of 5 = "+Math.sqrt(5));
+System.out.println("Square root of 586 = "+Math.sqrt(586));
+System.out.println("16 ^ 3 = "+Math.pow(16, 3));
+System.out.println("5 ^ 4 = "+Math.pow(5, 4));
+System.out.println("math.exp(5) = "+Math.exp(5));
+System.out.println("math.round(21/5) = "+Math.round(21/5));
+System.out.println("math.round(100/3) = "+Math.round(100/3));
+System.out.println("math.round(100/6) = "+Math.round(100/6));
+int x = 5; int y = -20;
+System.out.println("Square root of x = "+Math.sqrt(x));
+System.out.println("x ^ 3 = "+Math.pow(x, 3));
+System.out.println(Math.min(x, y));
+System.out.println(Math.max(x,y));
+
+
+	}
+
+}
