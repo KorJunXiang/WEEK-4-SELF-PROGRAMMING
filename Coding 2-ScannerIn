@@ -1,0 +1,17 @@
+package SelfProgramming;
+import java.util.Scanner;
+public class ScannerIn {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+Scanner scan = new Scanner(System.in);
+System.out.print ("Enter a line of text:");
+String message = scan.nextLine();
+System.out.println ("You entered: \"" + message + "\"");
+System.out.print("Enter your math paper mark:");
+double mathpapermark = scan.nextInt();
+double finalmark = mathpapermark/40*100;
+System.out.println("Your final mark is:"+finalmark);
+	}
+
+}
