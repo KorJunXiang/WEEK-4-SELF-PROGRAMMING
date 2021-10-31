@@ -9,9 +9,14 @@ System.out.print ("Enter a line of text:");
 String message = scan.nextLine();
 System.out.println ("You entered: \"" + message + "\"");
 System.out.print("Enter your math paper mark:");
-double mathpapermark = scan.nextInt();
+double mathpapermark = scan.nextDouble();
 double finalmark = mathpapermark/40*100;
 System.out.println("Your final mark is:"+finalmark);
+System.out.println("Enter yout science paper mark :");
+double sciencemark = scan.nextDouble();
+double finalscmark = sciencemark/50*100;
+System.out.println("Your final science mark is :"+finalscmark);
+scan.close();
 	}
 
 }
