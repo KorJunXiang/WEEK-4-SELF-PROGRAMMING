@@ -1,0 +1,30 @@
+package SelfProgramming;
+
+import java.util.Scanner;
+
+public class IfElse2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner scan = new Scanner(System.in);
+		System.out.println("Enter the value of x :");
+		double x = scan.nextDouble();
+		System.out.println("Enter the value of y :");
+		double y = scan.nextDouble();
+		double z=x/y;
+		if(z>0) {
+			if(z>=100) {
+		System.out.println("The value of z is higher than or same as 100 which is "+z);
+		}else if(z<100){
+		System.out.println("The value of z is lower than 100 which is "+z);
+		}
+		}else {//else happen when there is no other option
+			if(z<=0&&z>=-10) {
+		System.out.println("The value of z is lower than or same as 0 but higher than -10 which is "+z);
+		}else {
+		System.out.println("The value of z is lower than -10 which is "+z);
+		}
+	}
+		scan.close();
+	}
+}
