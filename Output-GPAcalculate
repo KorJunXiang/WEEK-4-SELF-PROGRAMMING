@@ -1,0 +1,39 @@
+Output 1 :
+Enter your course name :
+mathematic
+Enter your mathematic marks :
+64
+Your GPA is 3.33
+Enter your GPA shown above :
+3.33
+Congratulations,you done well in your exam and get GPA at 3.33
+
+Output 2 :
+Enter your course name :
+programming 1
+Enter your programming 1 marks :
+86
+Your GPA is 4.0
+Enter your GPA shown above :
+4.0
+Congratulations,you achieve a high GPA which is 4.0
+
+Output 3 :
+Enter your course name :
+science
+Enter your science marks :
+32
+Your GPA is 1.33
+Enter your GPA shown above :
+1.33
+Your GPA which is 1.33 is not enough to pass the courses,try harder to achieve a higher mark
+
+Output 4 :
+Enter your course name :
+sejarah
+Enter your sejarah marks :
+15
+Your GPA is 0.00
+Enter your GPA shown above :
+0
+You have to try harder and harder to hit a high mark in your exam to get a higher GPA compare to your GPA now :0.0
