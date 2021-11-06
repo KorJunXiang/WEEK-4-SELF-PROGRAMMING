@@ -1,0 +1,27 @@
+Output 1 :
+Enter the value of x :
+200
+Enter the value of y :
+2
+The value of z is higher than or same as 100 which is 100.0
+
+Output 2 :
+Enter the value of x :
+25
+Enter the value of y :
+4
+The value of z is lower than 100 which is 6.25
+
+Output 3 :
+Enter the value of x :
+56
+Enter the value of y :
+-4
+The value of z is lower than -10 which is -14.0
+
+Output 4 :
+Enter the value of x :
+50
+Enter the value of y :
+-50
+The value of z is lower than or same as 0 but higher than -10 which is -1.0
