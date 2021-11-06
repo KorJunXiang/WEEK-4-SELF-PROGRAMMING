@@ -1,0 +1,21 @@
+package SelfProgramming;
+import java.util.Scanner;
+public class IfElse1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner scan = new Scanner(System.in);
+		System.out.println("Enter the value of x :");
+		double x = scan.nextDouble();
+		System.out.println("Enter the value of y :");
+		double y = scan.nextDouble();
+		double z=x/y;
+		if(z>=10) {
+		System.out.println("The value of z is higher or same to 10 which is "+z);
+		}else {
+		System.out.println("The value of z is lower than 10 which si "+z);
+		}
+scan.close();
+	}
+
+}
