@@ -1,0 +1,59 @@
+package SelfProgramming;
+import java.util.Scanner;
+public class GPAcalculate {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner scan = new Scanner(System.in);
+		System.out.println("Enter your course name :");
+		String name = scan.nextLine();
+		System.out.println("Enter your " +name +" marks :");
+		double mark = scan.nextDouble();
+	    if(mark>=80&&mark<=100) {
+	    	System.out.println("Your GPA is 4.0");
+	    }else if(mark>=70&&mark<=79) {
+	    	System.out.println("Your GPA is 3.67");
+	    }else if(mark>=60&&mark<=69) {
+	    	System.out.println("Your GPA is 3.33");
+	    }else if(mark>=55&&mark<=59) {
+	    	System.out.println("Your GPA is 3.00");
+	    }else if(mark>=50&&mark<=54) {
+	    	System.out.println("Your GPA is 2.67");
+	    }else if(mark>=45&&mark<=49) {
+	    	System.out.println("Your GPA is 2.33");
+	    }else if(mark>=40&&mark<=44) {
+	    	System.out.println("Your GPA is 2.00");
+	    }else if(mark>=35&&mark<=39) {
+	    	System.out.println("Your GPA is 1.67");
+	    }else if(mark>=30&&mark<=34) {
+	    	System.out.println("Your GPA is 1.33");
+	    }else if(mark>=25&&mark<=29) {
+	    	System.out.println("Your GPA is 1.00");
+	    }else if(mark>=0&&mark<=25) {
+	    	System.out.println("Your GPA is 0.00");
+	    }else {
+	    	System.out.println("You entered wrong value of your "+name +" marks.");
+	    }
+	    System.out.println("Enter your GPA shown :");
+	    double GPA = scan.nextDouble();
+		if(GPA>=2.0&&GPA<=4.0) {
+			if(GPA>=3.5) {
+				System.out.println("Congratulations,you achieve a high GPA which is "+GPA);
+			}else if(GPA>=3.0&&GPA<3.5) {
+				System.out.println("Congratulations,you done well in your exam and get GPA at "+GPA);
+			}else {
+				System.out.println("Congratulations,you have pass your exam at GPA "+GPA +" but you can retake it if you want to hit a higher score");
+			}
+		}else if(GPA>=0&&GPA<2.0) {
+				if(GPA>=1.0) {
+				System.out.println("Your GPA which is "+GPA +" is not enough to pass the courses,try harder to achieve a higher mark");
+			}else{
+				System.out.println("You have to try harder and harder to hit a high mark in your exam to get a higher GPA compare to your GPA now :"+GPA);
+			}
+		}else {
+			System.out.println("You entered a wrong GPA shown above, try again and entered the right value.");
+		}
+		scan.close();
+	}
+
+}
