@@ -34,7 +34,7 @@ public class GPAcalculate {
 	    }else {
 	    	System.out.println("You entered wrong value of your "+name +" marks.");
 	    }
-	    System.out.println("Enter your GPA shown :");
+	    System.out.println("Enter your GPA shown above :");
 	    double GPA = scan.nextDouble();
 		if(GPA>=2.0&&GPA<=4.0) {
 			if(GPA>=3.5) {
